@@ -1,0 +1,21 @@
+.main-box {
+  margin: 1rem 2rem;
+}
+.check-list-item {
+  padding: 0.5rem 2rem;
+}
+.check-list-item:hover {
+  opacity: 0.6;
+  color: inherit;
+}
+.main-product {
+  margin: auto;
+}
+.grid-three {
+  gap: 5rem;
+}
+@media only screen and (max-width: 600px) {
+  .grid-three {
+    gap: 2rem;
+  }
+}
