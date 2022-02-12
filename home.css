@@ -1,0 +1,67 @@
+/* font import */
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+/* font family */
+/* font-family: 'Staatliches', cursive; */
+
+.head-offer {
+  background-color: var(--light-gray-v2);
+  padding: 0.6rem 0.6rem 0rem 0.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-img {
+  margin: 0rem 2rem 2rem 2rem;
+  display: relative;
+  cursor: pointer;
+}
+/* home img */
+.home-img-item-name {
+  font-family: "Staatliches", cursive;
+  font-weight: 700;
+  font-size: 5rem;
+}
+.overlap-heading {
+  padding: 2.5rem;
+}
+
+/* popular section */
+.popular-section {
+  padding: 2rem;
+}
+
+/* popular card grid */
+.popular-card {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 2rem;
+  overflow: auto;
+  padding: 2rem 2rem 2rem 0rem;
+}
+
+/* <!-- gift item --> */
+.gift-section {
+  margin: 2rem 0.4rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .head-offer {
+    display: none;
+  }
+  .overlap-heading {
+    padding: 1rem;
+  }
+  .home-img {
+    margin: 0rem;
+  }
+  /* popular section */
+  .popular-section {
+    padding: 1.5rem 0.6rem;
+  }
+  .popular-card {
+    padding: 1rem 1rem 1rem 0rem;
+  }
+  .gift-section {
+    margin: 1rem;
+  }
+}
