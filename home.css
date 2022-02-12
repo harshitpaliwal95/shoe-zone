@@ -39,9 +39,17 @@
   padding: 2rem 2rem 2rem 0rem;
 }
 
+/* card badge color */
+.card-badge {
+  background-color: black;
+}
 /* <!-- gift item --> */
 .gift-section {
   margin: 2rem 0.4rem;
+}
+
+.card-comp-img {
+  height: 18rem;
 }
 
 @media only screen and (max-width: 600px) {
