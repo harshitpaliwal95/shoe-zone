@@ -14,10 +14,6 @@
 .grid-three {
   gap: 5rem;
 }
-/* card badge color */
-.card-badge {
-  background-color: black;
-}
 .card-comp-img {
   height: 18rem;
 }
