@@ -48,10 +48,6 @@
   margin: 2rem 0.4rem;
 }
 
-.card-comp-img {
-  height: 18rem;
-}
-
 @media only screen and (max-width: 600px) {
   .head-offer {
     display: none;
