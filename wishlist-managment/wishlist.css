@@ -14,9 +14,23 @@
 .grid-three {
   gap: 5rem;
 }
+/* card badge color */
+.card-badge {
+  background-color: black;
+}
 .card-comp-img {
   height: 18rem;
 }
+
+/* cancle badge */
+.right-badge {
+  right: 0;
+  background-color: transparent;
+  box-shadow: none;
+  color: black;
+  font-size: 1.4rem;
+}
+
 @media only screen and (max-width: 600px) {
   .main-box {
     margin: 0rem;
