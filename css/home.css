@@ -43,6 +43,16 @@ main {
   padding: 2rem 2rem 2rem 0rem;
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+.popular-card::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.popular-card {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
 /* <!-- gift item --> */
 .gift-section {
   margin: 2rem 0.4rem;
