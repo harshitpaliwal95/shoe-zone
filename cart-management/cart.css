@@ -35,15 +35,15 @@
   margin: 0.5rem 0rem;
 }
 
-.charges {
+.charges-box {
   border-top: 1px solid var(--light-gray);
   border-bottom: 1px solid var(--light-gray);
   margin-top: 1rem;
   margin-bottom: 1rem;
   padding: 1rem 0;
 }
-.charges div {
-  margin-top: .8rem;
+.charges-box div {
+  margin-top: 0.8rem;
 }
 
 .space-between {
@@ -52,7 +52,7 @@
 }
 
 /* save on para */
-.save-money {
+.save-lable {
   padding: 0.5rem 0 0.5rem 0;
 }
 
