@@ -32,7 +32,7 @@
   padding: 1rem;
 }
 .place-order-box .btn {
-  margin: 0.5rem 0rem 0.5rem 0rem;
+  margin: 0.5rem 0rem;
 }
 
 .charges {
@@ -40,10 +40,10 @@
   border-bottom: 1px solid var(--light-gray);
   margin-top: 1rem;
   margin-bottom: 1rem;
-  padding: 1rem 0 1rem 0;
+  padding: 1rem 0;
 }
 .charges div {
-  margin: 0.8rem 0rem 0rem 0rem;
+  margin-top: .8rem;
 }
 
 .space-between {
