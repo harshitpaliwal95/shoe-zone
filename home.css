@@ -3,6 +3,10 @@
 /* font family */
 /* font-family: 'Staatliches', cursive; */
 
+main {
+  margin-top: 8rem;
+}
+
 .head-offer {
   background-color: var(--light-gray-v2);
   padding: 0.6rem 0.6rem 0rem 0.6rem;
@@ -45,6 +49,9 @@
 }
 
 @media only screen and (max-width: 600px) {
+  main {
+    margin-top: 5rem;
+  }
   .head-offer {
     display: none;
   }

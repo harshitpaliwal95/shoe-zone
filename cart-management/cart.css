@@ -1,0 +1,63 @@
+@import url("../wishlist-managment/wishlist.css");
+
+.checkout-layout {
+  margin: auto;
+}
+.card-component {
+  margin: 1rem;
+  width: 25rem;
+}
+.grid-two {
+  gap: 3rem;
+}
+/* cart item */
+.cart-item {
+  height: 80vh;
+  overflow: auto;
+}
+/* remove scroll bar */
+.cart-item::-webkit-scrollbar {
+  display: none;
+}
+.cart-item {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.place-order-box {
+  margin: 1rem;
+  width: 22rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.place-order-box .btn {
+  margin: 0.5rem 0rem;
+}
+
+.charges-box {
+  border-top: 1px solid var(--light-gray);
+  border-bottom: 1px solid var(--light-gray);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem 0;
+}
+.charges-box div {
+  margin-top: 0.8rem;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* save on para */
+.save-lable {
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .cart-item {
+    height: auto;
+  }
+}

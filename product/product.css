@@ -1,5 +1,5 @@
 .main-box {
-  margin: 1rem 2rem;
+  margin: 8rem 2rem 1rem 2rem;
 }
 .check-list-item {
   padding: 0.5rem 2rem;
@@ -19,7 +19,7 @@
 }
 @media only screen and (max-width: 600px) {
   .main-box {
-    margin: 0rem;
+    margin: 5rem 0rem;
   }
   .grid-three {
     gap: 1rem 0.4rem;
