@@ -1,0 +1,64 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 100vw;
+}
+.form-info {
+  box-shadow: var(--main-box-shadow);
+  width: 25rem;
+  height: auto;
+}
+.heading-x-lg {
+  font-weight: 600;
+  padding: 1rem 0rem;
+}
+.input-box {
+  margin: 0.5rem 0rem;
+}
+.input-box input {
+  width: 20rem;
+}
+.form-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.forget-pass {
+  width: 20rem;
+}
+.space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form-btn {
+  width: 20rem;
+  margin: 1.2rem 0rem;
+}
+.form-btn .btn {
+  width: 100%;
+}
+
+.new-ac {
+  margin: 0rem 0rem 0.8rem 0;
+}
+@media only screen and (max-width: 600px) {
+  .form-info {
+    width: 20rem;
+  }
+  .input-box input {
+    width: 15rem;
+  }
+  .forget-pass {
+    width: 16rem;
+  }
+  .forget-pass span {
+    font-size: 0.8rem;
+  }
+  .form-btn {
+    width: 15rem;
+  }
+}
