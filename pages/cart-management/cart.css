@@ -1,5 +1,9 @@
 @import url("../wishlist-managment/wishlist.css");
 
+.main-box {
+  display: flex;
+}
+
 .checkout-layout {
   margin: auto;
 }
