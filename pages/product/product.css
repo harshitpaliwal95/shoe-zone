@@ -25,4 +25,7 @@
   .grid-three {
     gap: 1rem 0.4rem;
   }
+  .side-bar {
+    display: none;
+  }
 }
